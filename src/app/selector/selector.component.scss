@@ -1,0 +1,25 @@
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    margin: 0 2rem;
+    text-align: center;
+    width: 200px;
+    user-select: none;
+  }
+
+  i {
+    cursor: pointer;
+    user-select: none;
+  }
+
+  i:hover {
+    color: #b63030;
+  }
+
+  i:active {
+    color: red;
+  }
+}
